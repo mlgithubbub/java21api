@@ -4,19 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9992a06-5ad8-45dd-9ecb-7e477559488e" name="Changes" comment="# first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/BitsLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/BufferedInputStreamLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/BufferedReaderLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/FileInputStreamLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/InputStreamLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/InputStreamReaderLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/ScannerLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/myfile.txt" afterDir="false" />
+    <list default="true" id="b9992a06-5ad8-45dd-9ecb-7e477559488e" name="Changes" comment="# bits &amp; input streams">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/BufferedOutputStreamLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/BufferedWriterLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/ByteArrayInputStreamLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/ByteArrayOutputStreamLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/CacheRefLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/CharArrayReaderLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/CharArrayWriterLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/CharConversionExceptionLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/ClassCacheLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/CloseableLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/ConsoleLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/DataInputLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/DataInputStreamLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/LineReaderLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lang/CallersHolderLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lang/LevelLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lang/LoggerFinderLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lang/LoggerLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lang/ObjectLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lang/SystemLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ObjectsLearn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/InputStreamLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/InputStreamLearn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +64,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2ZkxrR5uGVZCeAzb6UVsqzWr0dv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,7 +92,7 @@
       <recent name="io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScannerLearn">
+  <component name="RunManager" selected="Application.InputStreamLearn">
     <configuration name="BufferedInputStreamLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.BufferedInputStreamLearn" />
       <module name="java21api" />
@@ -147,9 +160,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InputStreamLearn" />
         <item itemvalue="Application.ScannerLearn" />
         <item itemvalue="Application.BufferedReaderLearn" />
-        <item itemvalue="Application.InputStreamLearn" />
         <item itemvalue="Application.FileInputStreamLearn" />
         <item itemvalue="Application.BufferedInputStreamLearn" />
       </list>
@@ -171,11 +184,19 @@
       <option name="project" value="LOCAL" />
       <updated>1702981020295</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="# bits &amp; input streams">
+      <created>1702994199114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702994199114</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="# first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="# first commit" />
+    <MESSAGE value="# bits &amp; input streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="# bits &amp; input streams" />
   </component>
 </project>
